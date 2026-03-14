@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.bg-img {
+  /* CSSのbackground-imageプロパティではなくhtmlのimg要素で実装しても良い（実務上でも意見が分かれる） */
+  background-image: url("https://learnwithnakamura.s3.ap-northeast-1.amazonaws.com/bootstrap5/bOy4OPu98lI.jpg");
+  background-size: cover;
+  background-position: center 30%;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
