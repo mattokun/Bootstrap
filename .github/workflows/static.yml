@@ -25,7 +25,7 @@ jobs:
         with:
           # ここをあなたのフォルダ名に書き換えてください！
           # 例: path: './my-folder'
-          path: './abc'
+          path: './aaa'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
